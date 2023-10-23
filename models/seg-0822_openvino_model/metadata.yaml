@@ -1,0 +1,15 @@
+description: Ultralytics YOLOv8s-seg model trained on /content/drive/MyDrive/Projects/yolov8-training/0822/datasets/Steel-Beam-Instance-Segmentation-Dataset-6/data.yaml
+author: Ultralytics
+license: AGPL-3.0 https://ultralytics.com/license
+date: '2023-09-19T00:24:41.258834'
+version: 8.0.181
+stride: 32
+task: segment
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: I-beam
+  1: O-beam
+  2: T-beam

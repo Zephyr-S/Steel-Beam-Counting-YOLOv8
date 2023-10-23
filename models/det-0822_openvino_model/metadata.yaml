@@ -1,0 +1,15 @@
+description: Ultralytics det-0822 model trained on /content/datasets/Steel-Beam-Dataset-1/data.yaml
+author: Ultralytics
+license: AGPL-3.0 https://ultralytics.com/license
+date: '2023-09-19T00:24:33.161554'
+version: 8.0.181
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 800
+- 800
+names:
+  0: I-beam
+  1: O-beam
+  2: T-beam
